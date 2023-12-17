@@ -1,0 +1,235 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: 'Hanken Grotesk';
+  src: url('./font/static/HankenGrotesk-Regular.ttf') format('woff');
+  /* Add more formats as fallbacks if available */
+}
+
+.yourresult {
+  padding:40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Center children vertically */
+  align-items: center; /* Center children horizontally */
+  color: white;
+  width: 50%;
+  height: 100%;
+  background: linear-gradient(to top,  hsl(241, 81%, 54%) , hsl(252, 100%, 67%));
+  border-radius: 15px 15px 15px 15px;
+  text-align: center;
+}
+
+#your{
+  padding-bottom: 20px;
+  color:hsl(241, 100%, 89%);
+}
+
+.circle {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center; /* Center content horizontally */
+  align-items: center; /* Center content vertically */
+  flex-direction: column;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 1px;
+  background: linear-gradient(to top,hsla(241, 72%, 46%, 0),  hsla(256, 72%, 46%, 1));
+}
+
+#score{
+  font-weight: 800;
+  font-size: 60px;
+}
+
+#total{
+  color:hsl(241, 100%, 89%);
+}
+
+p{
+  margin-top: 10px;
+  font-size: 18px;
+  text-align: center;
+  color:hsl(241, 100%, 89%);
+}
+  
+
+.summary {
+  display:flex;
+  flex-direction:column;
+  width: 50%;
+  height: 100%;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  text-align: left;
+  box-shadow: 5px 5px 15px rgba(196, 196, 201, 0.3),
+  -5px -5px 15px rgba(255, 255, 255, 0.5);
+  border-radius: 1px 15px 15px 1px;
+}
+
+#sum{
+  margin-top: 10px;
+  margin-bottom: 20px;
+  color: hsl(224, 30%, 27%);
+  text-align: left;
+}
+
+.no1{
+  color:hsl(224, 30%, 27%);
+  padding-left: 30px;
+}
+
+.no2{
+  color:hsl(241, 100%, 89%);
+  font-weight: bold;
+  padding-right:20px ;
+}
+
+.items1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction:row;
+  border:1px groove;
+  border-radius: 10px ;
+  background-color: #fff6f5;
+  margin-bottom: 10px;
+  /*margin-left: 10px;*/
+  padding-left:10px;
+  padding-top:10px;
+  padding-bottom: 10px;
+}
+
+.text1{
+  padding-left:10px;
+  color:hsl(0, 100%, 67%);
+}
+
+.items2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction:row;
+  border-radius: 10px;
+  border:1px groove;
+  background-color: #fffbf2;
+  margin-bottom: 10px;
+  padding-left:10px;
+  padding-top:10px;
+  padding-bottom: 10px;
+}
+
+.text2{
+  color:hsl(39, 100%, 56%);
+  padding-left:10px;
+
+}
+
+.items3{
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction:row;
+  border:1px groove;
+  border-radius: 10px;
+  background-color: #f2fbfa;
+  margin-bottom: 10px;
+  padding-left:11px;
+  padding-top:10px;
+  padding-bottom: 10px;
+}
+
+.text3{
+  color:hsl(166, 100%, 37%);
+  padding-left:10px;
+}
+
+.items4{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction:row;
+  border:1px groove;
+  border-radius: 10px;
+  background-color: #f3f3fd;
+  margin-bottom: 10px;
+  padding-left:10px;
+  padding-top:10px;
+  padding-bottom: 10px;
+}
+
+.text4{
+  color:hsl(234, 85%, 45%);
+  padding-left:10px;
+}
+
+.button{
+  margin-top:20px;
+  border-radius: 35px;
+  color: white;
+  background-color: hsl(224, 30%, 27%);
+  padding: 15px;
+}
+img{
+  width:28px;
+  height:28px;
+}
+  
+@media screen and (min-width: 1024px) {
+  /* Styles for desktop screens */
+
+  body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Hanken Grotesk', sans-serif;
+
+  }
+
+.main {
+  display: flex;
+  width: 650px;
+  height: 420px;
+  border-radius: 15px;
+  
+}
+
+}
+
+@media screen and (max-width: 767px) {
+ /* Styles for mobile screens */
+
+body{
+  font-family: 'Hanken Grotesk', sans-serif; 
+}
+  
+.main {
+  display: flex;
+  width:200%;
+  border-radius: 15px;
+  border: 1px groove;
+  flex-direction: column;
+  border-radius: 15px;
+}
+
+}
+
+
+
+
+
+
+
+
+
